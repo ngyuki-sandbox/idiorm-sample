@@ -1,0 +1,5 @@
+<?php
+
+ORM::configure('mysql:host=localhost;dbname=test');
+ORM::configure('username', 'test');
+ORM::configure('password', 'secret');
